@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Grand Vista Hotel</title>
+    <!-- Dependencies -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <style>
+      :root {
+        --primary-color: #0a2463;
+        --secondary-color: #d8315b;
+        --light-color: #f9f9f9;
+      }
+      body {
+        font-family: "Roboto", sans-serif;
+        background-color: var(--light-color);
+      }
+      .navbar-brand,
+      .playfair-display {
+        font-family: "Playfair Display", serif;
+      }
+      .navbar {
+        background-color: rgba(255, 255, 255, 0.9);
+        backdrop-filter: blur(10px);
+      }
+      .btn-brand {
+        background-color: var(--secondary-color);
+        color: white;
+        border: none;
+        transition: background-color 0.3s ease;
+      }
+      .btn-brand:hover {
+        background-color: #b32549;
+        color: white;
+      }
+      .page-header {
+        background: url("https://placehold.co/1920x400/0a2463/f9f9f9?text=Get+In+Touch")
+          no-repeat center center/cover;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+      .footer {
+        background-color: var(--primary-color);
+        color: white;
+      }
+      .footer a {
+        color: #ccc;
+        text-decoration: none;
+      }
+      .footer a:hover {
+        color: white;
+      }
+      .contact-icon {
+        font-size: 2rem;
+        color: var(--secondary-color);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header Navigation -->
+    <nav class="navbar navbar-expand-lg sticky-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fs-4" href="index.html"
+          ><i class="bi bi-building"></i> Grand Vista</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="rooms.html">Rooms</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Services</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="events.html">Events</a></li>
+                <li>
+                  <a class="dropdown-item" href="facilities.html">Facilities</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+                >Deals</a
+              >
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="offers.html">Offers</a></li>
+                <li>
+                  <a class="dropdown-item" href="packages.html">Packages</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="career.html">Career</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact.html"
+                >Contact</a
+              >
+            </li>
+          </ul>
+          <a href="booking.html" class="btn btn-brand ms-lg-3">Book Now</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+      <header class="page-header">
+        <h1 class="display-4 playfair-display">We'd Love to Hear From You</h1>
+      </header>
+
+      <section class="py-5">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2 class="playfair-display text-primary">Contact Information</h2>
+            <p class="lead">
+              Reach out to us through any of the following channels, or send us
+              a message using the form below.
+            </p>
+          </div>
+
+          <!-- Contact Info -->
+          <div class="row text-center mb-5">
+            <div class="col-md-4">
+              <div class="contact-icon mb-2">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div>
+              <h5>Our Address</h5>
+              <p class="text-muted">123 Luxury Lane, Metropolis, 54321</p>
+            </div>
+            <div class="col-md-4">
+              <div class="contact-icon mb-2">
+                <i class="bi bi-envelope-fill"></i>
+              </div>
+              <h5>Email Us</h5>
+              <p class="text-muted">info@grandvista.com</p>
+            </div>
+            <div class="col-md-4">
+              <div class="contact-icon mb-2">
+                <i class="bi bi-telephone-fill"></i>
+              </div>
+              <h5>Call Us</h5>
+              <p class="text-muted">+ 01 234 567 88</p>
+            </div>
+          </div>
+
+          <!-- Contact Form and Map -->
+          <div class="row g-4">
+            <div class="col-lg-6">
+              <div class="bg-white p-4 p-md-5 rounded shadow">
+                <h3 class="playfair-display text-primary mb-4">
+                  Send us a Message
+                </h3>
+                <form>
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Full Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="subject"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      rows="5"
+                      required
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-brand">
+                    Send Message
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="h-100 rounded shadow overflow-hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.111811802951!2d144.9537353155047!3d-37.81720997975195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2sMelbourne%20VIC%2C%20Australia!5e0!3m2!1sen!2sus!4v1620211122874!5m2!1sen!2sus"
+                  width="100%"
+                  height="100%"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer pt-5 pb-4">
+      <div class="container text-center text-md-start">
+        <div class="row">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold playfair-display">
+              <i class="bi bi-building"></i> Grand Vista Hotel
+            </h6>
+            <hr
+              class="mb-4 mt-0 d-inline-block mx-auto"
+              style="
+                width: 60px;
+                background-color: var(--secondary-color);
+                height: 2px;
+              "
+            />
+            <p>
+              Experience the pinnacle of luxury and comfort. Your unforgettable
+              journey begins here, where every detail is crafted for your
+              pleasure.
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold">Quick Links</h6>
+            <hr
+              class="mb-4 mt-0 d-inline-block mx-auto"
+              style="
+                width: 60px;
+                background-color: var(--secondary-color);
+                height: 2px;
+              "
+            />
+            <p><a href="about.html" class="text-reset">About Us</a></p>
+            <p><a href="rooms.html" class="text-reset">Rooms</a></p>
+            <p><a href="offers.html" class="text-reset">Offers</a></p>
+            <p><a href="contact.html" class="text-reset">Contact</a></p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+              class="mb-4 mt-0 d-inline-block mx-auto"
+              style="
+                width: 60px;
+                background-color: var(--secondary-color);
+                height: 2px;
+              "
+            />
+            <p>
+              <i class="bi bi-geo-alt-fill me-3"></i> 123 Luxury Lane,
+              Metropolis, 54321
+            </p>
+            <p><i class="bi bi-envelope-fill me-3"></i> info@grandvista.com</p>
+            <p><i class="bi bi-telephone-fill me-3"></i> + 01 234 567 88</p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold">Follow Us</h6>
+            <hr
+              class="mb-4 mt-0 d-inline-block mx-auto"
+              style="
+                width: 60px;
+                background-color: var(--secondary-color);
+                height: 2px;
+              "
+            />
+            <div>
+              <a href="#" class="me-4 text-reset fs-4"
+                ><i class="bi bi-facebook"></i></a
+              ><a href="#" class="me-4 text-reset fs-4"
+                ><i class="bi bi-twitter-x"></i></a
+              ><a href="#" class="me-4 text-reset fs-4"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2024 Copyright:
+        <a class="text-white" href="index.html">GrandVistaHotel.com</a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
