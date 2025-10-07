@@ -45,18 +45,18 @@ JavaScript: For enabling Bootstrap components and handling simple DOM manipulati
 The project has a flat and straightforward file structure, with each page as a separate HTML file.
 
 grand-vista-hotel/
-├── index.html          # Home Page
-├── about.html          # About Us Page
-├── rooms.html          # Rooms & Suites Page
-├── booking.html        # Reservation Form Page
-├── payment.html        # Payment Details Page
-├── events.html         # Events & Meetings Page
-├── facilities.html     # Hotel Facilities Page
-├── offers.html         # Special Offers Page
-├── packages.html       # Holiday Packages Page
-├── career.html         # Career Opportunities Page
-├── contact.html        # Contact & FAQ Page
-└── README.md           # Project Information
+index.html          # Home Page
+about.html          # About Us Page
+rooms.html          # Rooms & Suites Page
+booking.html        # Reservation Form Page
+payment.html        # Payment Details Page
+events.html         # Events & Meetings Page
+facilities.html     # Hotel Facilities Page
+offers.html         # Special Offers Page
+packages.html       # Holiday Packages Page
+career.html         # Career Opportunities Page
+contact.html        # Contact & FAQ Page
+README.md           # Project Information
 
 # 🚀 Getting Started
 This is a static website and does not require any special build steps or dependencies.
