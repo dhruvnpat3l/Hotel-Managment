@@ -42,21 +42,25 @@ Google Fonts: For elegant typography (Playfair Display for headings and Roboto f
 JavaScript: For enabling Bootstrap components and handling simple DOM manipulations like the fade-in-on-scroll animation.
 
 # 📂 File Structure
-The project has a flat and straightforward file structure, with each page as a separate HTML file.
+The project has a straightforward file structure, with CSS and other assets organized into their own directories.
 
+```
 grand-vista-hotel/
-index.html          # Home Page
-about.html          # About Us Page
-rooms.html          # Rooms & Suites Page
-booking.html        # Reservation Form Page
-payment.html        # Payment Details Page
-events.html         # Events & Meetings Page
-facilities.html     # Hotel Facilities Page
-offers.html         # Special Offers Page
-packages.html       # Holiday Packages Page
-career.html         # Career Opportunities Page
-contact.html        # Contact & FAQ Page
-README.md           # Project Information
+├── index.html          # Home Page
+├── about.html          # About Us Page
+├── rooms.html          # Rooms & Suites Page
+├── booking.html        # Reservation Form Page
+├── payment.html        # Payment Details Page
+├── events.html         # Events & Meetings Page
+├── facilities.html     # Hotel Facilities Page
+├── offers.html         # Special Offers Page
+├── packages.html       # Holiday Packages Page
+├── career.html         # Career Opportunities Page
+├── contact.html        # Contact & FAQ Page
+├── README.md           # Project Information
+├── css/                # Directory for CSS files
+└── js/                 # Directory for JavaScript files
+```
 
 # 🚀 Getting Started
 This is a static website and does not require any special build steps or dependencies.
